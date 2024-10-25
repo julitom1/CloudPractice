@@ -8,9 +8,7 @@ services:
       - mongo_data:/data/db
 
   app_back:
-    build:
-      context: CloudPractice
-      dockerfile: Dockerfile 
+    image: julitom1/cloudpractice-app_back
     container_name: practice-cloud-back
     ports:
       - "8080:8080" 
@@ -18,9 +16,7 @@ services:
       - mongo
 
   app_front:
-    build:
-      context: CloudPracticeFront
-      dockerfile: Dockerfile 
+    image: julitom1/cloudpractice-app_front
     container_name: practice-cloud-front
     ports:
       - "5000:80" 
