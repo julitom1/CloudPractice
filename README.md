@@ -2,7 +2,7 @@
 
 ## Video de funcionamiento
 
-https://www.youtube.com/watch?v=8rLncVQS6y8
+https://youtu.be/_IYubnt_pQ0
 
 ## Autor
 Yarit Yajanny Villalobos Jimenez
